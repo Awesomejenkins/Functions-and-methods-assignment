@@ -52,7 +52,7 @@ console.log(domainNames);
 
 function typeOfEmail(emails){
 //    add novi.nlaapjesk@outlook.com in previously declared array: let emails = [...]
-    emails.push("novi.nlaapjesk@outlook.com");
+    emails.push("novi.nlaapjesk@outlook.com", "andyhoogvliets@icloud.com");
 //    loop trough array emails and set up if else structure to check whether teacher, student or external
     for (let i = 0; i < emails.length; i++){
         //after looping put results in new variable
